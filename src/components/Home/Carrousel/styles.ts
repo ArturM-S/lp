@@ -140,7 +140,7 @@ export const Icon = styled.div`
   width: 65px;
   height: 53px;
 
-  img{
+  img {
     width: 65px;
     height: 53px;
   }

@@ -46,13 +46,9 @@ export const Title = styled.h1`
 
 export const DesktopLineBreak = styled.br``;
 
-export const MobileLineBreak = styled.br`
-
-`;
+export const MobileLineBreak = styled.br``;
 
 export const Subtitle = styled.p`
-
-
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.6rem;
@@ -64,8 +60,8 @@ export const Subtitle = styled.p`
 
 export const BannerContainer = styled.div`
   position: relative;
-  text-align:center;
-  padding-left:32px;
+  text-align: center;
+  padding-left: 32px;
 `;
 
 export const Banner = styled.img`
