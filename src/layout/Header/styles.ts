@@ -13,7 +13,7 @@ export const Container = styled.header`
 
   box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.4);
 
-  z-index:99;
+  z-index: 99;
 
   ${media.laptop} {
     padding: 36px 0;

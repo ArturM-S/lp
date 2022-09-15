@@ -11,6 +11,9 @@ export function Navigation() {
       <Link href="/">
         <Item isActive={asPath === '/'}>Home</Item>
       </Link>
+      <Link href="/Sobre">
+        <Item isActive={asPath === '/Sobre'}>Sobre</Item>
+      </Link>
 
       <Button
         onClick={() =>
