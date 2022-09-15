@@ -267,12 +267,11 @@ export const ImageContainer = styled.div`
   color: #00613c;
   background-color: #00613c;
   transition: all 0.5s ease-in-out;
-  border: 1px solid #00613c;
 `;
 
 export const Image = styled.img`
-  width: 355px;
-  height: auto;
+  width: 301px;
+  height: 301px;
 `;
 
 export const CardBox = styled.div`

@@ -1,4 +1,7 @@
 import Typical from 'react-typical';
+import { FaReact } from 'react-icons/fa';
+import { IoLogoJavascript } from 'react-icons/io5';
+import { SiTypescript, SiHtml5, SiCss3, SiNextdotjs } from 'react-icons/si';
 import {
   BarHoverButton,
   Card,
@@ -83,10 +86,10 @@ export default function Home() {
             <TextDiv>
               <Subtitle>About me</Subtitle>
               <TextSide>
-                Hello! My name is Felipe Artur Marques, I graduated as a Graphic
-                Designer in 2019 at the Federal University of Espírito Santo.
-                I’m passionate about the mix of design and technology, that’s
-                why I decided to specialize in both areas.{' '}
+                Hello! My name is Artur, I graduated in system information in
+                2019 at the Federal institute of Espírito Santo. I’m passionate
+                about the technology solutions, that’s why I decided to
+                specialize in this area.{' '}
               </TextSide>
             </TextDiv>
             <ImageBox>
@@ -97,11 +100,13 @@ export default function Home() {
             </ImageBox>
           </TextImageBox>
           <Text>
-            Outside of work my hobbies include canoeing, exploring new places
-            with my friends, playing video games, drawing, watching anime and
-            sci-fi shows & movies, discovering new technologies and taking
-            waaaaay too many photos of my cats, Ônix and Saphir.
+            Outside of work my hobbies include League of legends, exploring new
+            places with my friends, discovering new technologies and learn new
+            things about this infinite possibilities area.
           </Text>
+          <a href="/assets/resume.pdf" target="_blank">
+            <Button>Resume</Button>
+          </a>
         </Main>
         <Line />
         <Main>
@@ -112,37 +117,37 @@ export default function Home() {
           <CardBox>
             <Card>
               <CardContent>
-                <CardIcon src="/assets/iconReact.svg" />
+                <FaReact size={32} />
                 <Text>React</Text>
               </CardContent>
             </Card>
             <Card>
               <CardContent>
-                <CardIcon src="/assets/iconJS.svg" />
+                <IoLogoJavascript size={32} />
                 <Text>JavaScript</Text>
               </CardContent>
             </Card>
             <Card>
               <CardContent>
-                <CardIcon src="/assets/iconTS.svg" />
+                <SiTypescript size={32} />
                 <Text>TypeScript</Text>
               </CardContent>
             </Card>
             <Card>
               <CardContent>
-                <CardIcon src="/assets/iconHTML.svg" />
+                <SiHtml5 size={32} />
                 <Text>HTML</Text>
               </CardContent>
             </Card>
             <Card>
               <CardContent>
-                <CardIcon src="/assets/iconCSS.svg" />
+                <SiCss3 size={32} />
                 <Text>CSS</Text>
               </CardContent>
             </Card>
             <Card>
               <CardContent>
-                <CardIcon src="/assets/iconNext.svg" />
+                <SiNextdotjs size={32} />
                 <Text>NextJS</Text>
               </CardContent>
             </Card>
@@ -153,20 +158,17 @@ export default function Home() {
           <Subtitle>Work</Subtitle>
           <Works>
             <Companies>
-              <Text>Enlight Web Solutions</Text>
               <Text>ATW Delivery Brands</Text>
               <Text>Freelancer</Text>
             </Companies>
             <RolesAndDuration>
               <Roles>
-                <Text>Co-Founder</Text>
-                <Text>UI Designer</Text>
-                <Text>Freelancer</Text>
+                <Text>Web developer</Text>
+                <Text>Web developer</Text>
               </Roles>
               <Duration>
-                <Text>2022 - now</Text>
                 <Text>2021 - now</Text>
-                <Text>2018 - now</Text>
+                <Text>2020 - now</Text>
               </Duration>
             </RolesAndDuration>
           </Works>
@@ -183,7 +185,8 @@ export default function Home() {
               <TextSide>
                 A franchising application with all the functionalities that the
                 biggest Dark Kitchen worldwide needed with both franchisee and
-                franchisor interfaces in web, mobile and desktop.
+                franchisor interfaces in web, mobile and desktop. Click to read
+                more!
               </TextSide>
             </TextDiv>
             <a
@@ -193,63 +196,15 @@ export default function Home() {
             >
               <ImageBox>
                 <ImageContainer>
-                  <Image src="assets/projectSpace.webp" />
+                  <Image src="assets/space.png" />
                 </ImageContainer>
                 <ImageBackLine />
               </ImageBox>
             </a>
           </TextImageBox>
         </Main>
-        <Main>
-          <TextImageBox>
-            <TextDiv>
-              <TagName>Website</TagName>
-              <Subtitle>Enlight WS</Subtitle>
-              <TextSide>
-                A website for the company that I found with co-workers. Enlight
-                is a web company that takes ideas out of paper and help business
-                improve in the technology century.
-              </TextSide>
-            </TextDiv>
-            <a
-              href="https://www.behance.net/gallery/146758559/Brand-Enlight-Web-Solutions"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <ImageBox>
-                <ImageContainer>
-                  <Image src="assets/projectEnlight.webp" />
-                </ImageContainer>
-                <ImageBackLine />
-              </ImageBox>
-            </a>
-          </TextImageBox>
-        </Main>
-        <Main>
-          <TextImageBox>
-            <TextDiv>
-              <TagName>Branding</TagName>
-              <Subtitle>Kuroi Kuma</Subtitle>
-              <TextSide>
-                A visual identity made for a telemedicine business for japanese
-                founders. The identity focus on health-care and kanjis to
-                englobe all the history and prestigious of the brand.
-              </TextSide>
-            </TextDiv>
-            <a
-              href="https://www.behance.net/gallery/147043375/Brand-Kuroi-Kuma"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <ImageBox>
-                <ImageContainer>
-                  <Image src="assets/projectKuroi.webp" />
-                </ImageContainer>
-                <ImageBackLine />
-              </ImageBox>
-            </a>
-          </TextImageBox>
-        </Main>
+        <Main />
+        <Main />
         <Line />
         <Main>
           <CenterContainer>
@@ -259,7 +214,7 @@ export default function Home() {
               If you have any questions, please don’t hesitate to contact me.
             </Text>
             <a
-              href="mailto:felipelagesstefenoni@gmail.com"
+              href="mailto:silvamarquesartur@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -268,7 +223,7 @@ export default function Home() {
               </Button>
             </a>
             <Text>
-              Designed with Figma & Built using React by Felipe Lages Stefenoni
+              Designed with Figma & Built using React by Artur Marques Silva
             </Text>
           </CenterContainer>
         </Main>
