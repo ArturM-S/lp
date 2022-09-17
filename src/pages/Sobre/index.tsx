@@ -1,13 +1,19 @@
 import Typical from 'react-typical';
 import { FaReact } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io5';
-import { SiTypescript, SiHtml5, SiCss3, SiNextdotjs } from 'react-icons/si';
+import {
+  SiTypescript,
+  SiHtml5,
+  SiCss3,
+  SiNextdotjs,
+  SiLinkedin,
+  SiGithub,
+} from 'react-icons/si';
 import {
   BarHoverButton,
   Card,
   CardBox,
   CardContent,
-  CardIcon,
   CenterContainer,
   Companies,
   ContactLinks,
@@ -23,7 +29,6 @@ import {
   Roles,
   RolesAndDuration,
   SocialMediaButton,
-  SocialMediaIcon,
   SocialMediaLinks,
   Subtitle,
   TagName,
@@ -40,7 +45,6 @@ export default function Home() {
   const push = () => {
     window.open('https://api.whatsapp.com/send?phone=5527995192645');
   };
-  // const [animation, setAnimation] = useState(false)
 
   return (
     <Container>
@@ -65,16 +69,16 @@ export default function Home() {
           <ContactLinks>
             <SocialMediaLinks>
               <SocialMediaButton
-                href="https://www.linkedin.com/in/felipelages/"
+                href="https://www.linkedin.com/in/artur-marques-silva-5207a1203/"
                 target="_blank"
               >
-                <SocialMediaIcon src="/assets/iconLinkedin.svg" />
+                <SiLinkedin size={24} />
               </SocialMediaButton>
               <SocialMediaButton
-                href="https://github.com/Lipping"
+                href="https://github.com/ArturM-S"
                 target="_blank"
               >
-                <SocialMediaIcon src="/assets/iconGithub.svg" />
+                <SiGithub size={24} />
               </SocialMediaButton>
             </SocialMediaLinks>
             <Button onClick={push}>Contate-nos!</Button>

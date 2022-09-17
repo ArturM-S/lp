@@ -163,6 +163,9 @@ export const SocialMediaButton = styled.a`
   height: 53px;
   background-color: transparent;
   cursor: pointer;
+  svg {
+    color: #870a28;
+  }
   &:hover {
     border: 1px solid #00613c;
   }
